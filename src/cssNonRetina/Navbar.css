@@ -1,0 +1,16 @@
+
+.NavItem2 {
+    color: black;
+    position: absolute;
+    z-index: 2;
+    text-decoration: none;
+    display: inline;
+    right: 45px;
+    padding-top: 2px;
+}
+
+.NavContainer {
+    float: right;
+    position: relative;
+    margin-top: 13px;
+}

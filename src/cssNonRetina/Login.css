@@ -1,0 +1,143 @@
+#primaryContainer {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 8% 8% 5% auto;
+    background-image: url("../images/flatlay-wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loginNavContainer {
+    width: 100%;
+    display: grid;
+    z-index: 1;
+}
+
+#logWrapper {
+    margin-top: -30px;
+}
+
+.NavItem {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    justify-content: center;
+    align-content: end;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    font-size: 60px;
+    padding-top: 100px;
+}
+
+.NavItem:visited {
+    color: black;
+}
+
+#greeting {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    justify-content: center;
+    align-content: start;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+}
+
+#loginUser {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% auto 35%;
+    grid-template-rows: auto auto 65% auto;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    z-index: 1;
+    padding-top: -100px;
+}
+
+#usernameTag {
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-self: start;
+    align-self: center; 
+    font-family: 'Source Sans Pro', sans-serif;   
+}
+
+#usernameInput {
+    display: grid;
+    width: 100%;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-self: start;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#loginPass {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% auto 35%;
+    grid-template-rows: 30% auto 65% auto;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    z-index: 1;
+    padding-top: -100px;
+}
+
+#passwordTag {
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-self: start;
+    align-self: center;    
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#passwordInput {
+    display: grid;
+    width: 100%;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-self: start;
+}
+
+#loginButtonContainer {
+    display: grid;
+    grid-template-columns: 35% auto 35%;
+    grid-template-rows: 170% 70%;
+    z-index: 1;
+}
+
+#loginButton {
+    display: grid;
+    justify-content: end;
+    align-content: center;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#loginButton button {
+    background-color: #F1D5C9;
+    color: #653511;
+    border: solid 0.5px #653511;
+    padding: 10px;
+    margin-top: -8px;
+}
+
+#logWrapper input {
+    outline: none;
+    border: solid 0.5px #653511;
+    border-radius: 3px;
+    padding-left: 7px;
+}
