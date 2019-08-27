@@ -1,7 +1,4 @@
 @media screen and (min-device-width: 1601px) and (max-device-width: 1920px) and (-webkit-min-device-pixel-ratio: 1) {
-    * {
-        font-family: 'Open Sans', sans-serif;
-    }
     #backgroundContainer {
         position: relative;
         height: 100%;
@@ -24,6 +21,7 @@
         position: absolute;
         margin-left: 27px;
         margin-top: 18px;
+        font-family: 'Playfair Display', serif;
     }
     #searchBarContainer {
         display: flex;
@@ -40,6 +38,7 @@
         font-size: 55px;
         z-index: 3;
         display: flex;
+        font-family: 'Playfair Display', serif;
     }
     #description {
         width: 300px;
@@ -50,6 +49,7 @@
         margin-top: -70px;
         color: white;
         font-size: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
     }
     #searchBar {
         display: flex;
